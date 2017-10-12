@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'FreeMono' sans-serif; 
+}
+html{
+	background-color: #fff;
+	color: #000;
+	padding: 1%;
+}
+input {
+	position:absolute;
+	bottom:0;
+	width:50%;
+	height:30px;
+}
+.input{
+	padding-left: 25%
+}
+.input-success {
+	animation-name: fadeIn;
+	-webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
